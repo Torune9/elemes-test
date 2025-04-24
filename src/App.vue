@@ -1,7 +1,11 @@
 <template>
-  <div>
-    <h1>
-      Hello World!
-    </h1>
-  </div>
+  <NavBar />
+  <main>
+    <MainLayout />
+  </main>
 </template>
+
+<script setup>
+import NavBar from './components/navigation/NavBar.vue';
+import MainLayout from './layouts/MainLayout.vue'
+</script>
