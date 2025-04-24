@@ -1,1 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 @import "tailwindcss";
+
+@theme {
+    /* custom font */
+    --font-rubik: 'Rubik', sans-serif;
+
+    /* custom base color primary*/
+    --color-green-grass: #8BAC3E;
+    --color-blue-sky: #40A2B1;
+    --color-deep-blue: #405EB6;
+    --color-maroon: #B23F74;
+    --color-light-green: #A4B441;
+
+    /* custom base color secondary */
+    --color-soft-ivory: #F0FEEB;
+    --color-soft-white: #F9FFF6;
+    --color-soft-light-blue: #E6F3F5;
+    --color-soft-light-deep-blue: #EAEEFA;
+    --color-soft-light-maroon: #F9EEF3;
+    --color-soft-light-green: #F3F7D9;
+}
