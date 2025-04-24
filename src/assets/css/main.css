@@ -9,15 +9,17 @@
     --font-rubik: 'Rubik', sans-serif;
 
     /* custom base color primary*/
-    --color-green-grass: #8BAC3E;
+    --color-primary: #8BAC3E;
     --color-blue-sky: #40A2B1;
     --color-deep-blue: #405EB6;
     --color-maroon: #B23F74;
     --color-light-green: #A4B441;
+    --color-medium-gray: #757575;
 
     /* custom base color secondary */
+    --color-secondary: #F9FFF6;
     --color-soft-ivory: #F0FEEB;
-    --color-soft-white: #F9FFF6;
+    --color-soft-white: #F2F2F2;
     --color-soft-light-blue: #E6F3F5;
     --color-soft-light-deep-blue: #EAEEFA;
     --color-soft-light-maroon: #F9EEF3;
