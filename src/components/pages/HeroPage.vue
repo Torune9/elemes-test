@@ -23,7 +23,8 @@
                 <div class="space-y-1">
                     <h1 class="font-semibold">Green Salad Tomato</h1>
                     <p class="text-medium-gray text-sm">Tomato</p>
-                    <span v-for="n in 5" class="text-orange-500 inline-block pl-1 text-xs">
+                    <span v-for="n in 5" class="inline-block pl-1 text-xs"
+                        :class="rate < n ? 'text-gray-300' : 'text-orange-500'">
                         <i class="pi pi-star-fill"></i>
                     </span>
                 </div>
@@ -53,4 +54,6 @@
 <script setup>
 import salad from '@/assets/images/foods/salad.png'
 import ButtonAction from '../ui/ButtonAction.vue';
+
+const rate = 4
 </script>

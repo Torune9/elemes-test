@@ -20,8 +20,10 @@
                     <div class="text-start">
                         <h1 class="text-2xl lg:text-xl">{{ receipt.name }}</h1>
                         <p class="text-sm capitalize text-medium-gray">{{ receipt.category }}</p>
-                        <span v-for="n in receipt.rating" :key="n"
-                            class="text-orange-500 inline-block pl-1 text-[10px]">
+                        <span v-for="n in 5" :key="n" :class="[
+                            'inline-block pl-1 text-[10px]',
+                            n <= receipt.rating ? 'text-orange-500' : 'text-gray-300'
+                        ]">
                             <i class="pi pi-star-fill"></i>
                         </span>
                     </div>
