@@ -5,9 +5,12 @@
                 <i class="pi pi-home" style="font-size: 2rem"></i>
                 <p>Home</p>
             </button>
-            <button class="cursor-pointer hover:text-gray-700 transition-colors duration-500">
+            <button class="cursor-pointer hover:text-gray-700 transition-colors duration-500 relative">
                 <i class="pi pi-ticket" style="font-size: 2rem"></i>
                 <p>Promotions</p>
+                <span class="absolute top-0 bg-red-600 text-white text-xs rounded-xl px-2">
+                    HOT
+                </span>
             </button>
             <button class="cursor-pointer hover:text-gray-700 transition-colors duration-500" @click="showOtherMenu">
                 <i class="pi pi-bars" style="font-size: 2rem"></i>
